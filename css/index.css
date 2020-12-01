@@ -17,6 +17,7 @@
     border: none; /*Tiramos borda*/
     outline: none; /*E outline*/
     list-style: none; /*Tiramos estilo das listas*/
+    text-decoration: none;
 }
 
 .container{
@@ -37,7 +38,7 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-color: #1f2020;
+    background-color: #161413;
 }
 
 /*Configurando imagem dentro desse wrapper*/
@@ -97,21 +98,122 @@
     font-weight: 400;
 }
 
+/*Configurando posicionamentos dos elementos da sessão social media*/
+.section-social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Configurando posicionamento dos primeiros 2 botões*/
 .first-line{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
 }
 
+/*Configurando posicionamento dos segundos 2 botões*/
 .second-line{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
 }
 
-.second-line a{
-    margin: 0 25px ;
+/*Configurando links*/
+#link{
+    width: 280px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: .75rem ;
+    transition: all .5s;
 }
+
+/*Link Hover*/
+#link:hover{
+    background-color: #EE8B35;
+}
+
+/*Configurando Link do Instagram*/
+.link-instagram{
+    color: var(--color-primary);
+    background: #D42555;
+    border-radius: 3px;
+    margin-right: 25px;
+}
+
+/*Configurando ícone*/
+.link-instagram i{
+    font-size: 1.5rem;
+}
+
+/*Configurando h3*/
+.link-instagram h3{
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: .85rem;
+}
+
+/*Configurando Link do Github*/
+.link-github{
+    color: var(--color-primary);
+    background: #16212C;
+    border-radius: 3px;
+}
+
+/*Configurando ícone*/
+.link-github i{
+    font-size: 1.5rem;
+}
+
+/*Configurando h3*/
+.link-github h3{
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: .85rem;
+}
+
+/*Configurando Link do Linkedin*/
+.link-linkedin{
+    color: var(--color-primary);
+    background: #0A66C2;
+    border-radius: 3px;
+    margin-right: 25px;
+}
+
+/*Configurando ícone*/
+.link-linkedin i{
+    font-size: 1.5rem;
+}
+
+/*Configurando h3*/
+.link-linkedin h3{
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: .85rem;
+}
+
+/*Configurando Link do email*/
+.link-email{
+    color: var(--color-primary);
+    background: #0A66C2;
+    border-radius: 3px;
+}
+
+/*Configurando ícone*/
+.link-email i{
+    font-size: 1.5rem;
+}
+
+/*Configurando h3*/
+.link-email h3{
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: .85rem;
+}
+
 
