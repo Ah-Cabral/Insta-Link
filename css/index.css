@@ -1,0 +1,117 @@
+/*Importando ícones*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+/*Importando fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;800&display=swap');
+
+:root{ /*Atribuindo variáveis às fontes*/
+    --font-primary:"Montserrat", serif; /*Fonte Primária*/
+    --font-secondary: "Poppins", serif; /*Fonte Secundária*/
+    --color-primary: #EEEEEE;
+    --color-secondary: #EA8208;
+}
+
+*{
+    margin: 0; /*Tirando margem*/
+    padding: 0; /*Tiramos espaçamento*/
+    border: none; /*Tiramos borda*/
+    outline: none; /*E outline*/
+    list-style: none; /*Tiramos estilo das listas*/
+}
+
+.container{
+    position: absolute;
+    /*Adicionando margin top*/
+    margin-top: 5%;
+    top: 25%;
+    /*Posicionando Container ao centro da tela*/
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /*Ao aplicar essa propriedade evitamos que a tela se sobressaia através de scroll.*/
+    overflow: hidden;
+}
+
+/*Configurando background wrapper*/
+.img-wrapper-bg{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #1f2020;
+}
+
+/*Configurando imagem dentro desse wrapper*/
+.img-wrapper-bg img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    object-fit: cover;
+}
+
+/*Configurando posicionamento dos elementos do profile*/
+.profile-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Configurando borda que fica ao redor da foto*/
+.border-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 205px;
+    height: 205px;
+    border: 7px solid #EA8208;
+    border-radius: 120px;
+}
+
+/*Configurando wrapper da imagem*/
+.img-wrapper-profile{
+    width: 190px;
+    height: 190px;
+    border-radius: 100px;
+}
+
+/*Configurando imagem presente no wrapper*/
+.img-wrapper-profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+/*Configurando fonte primária da profile-header*/
+.profile-header h1{
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+/*Configurando fonte secundária da profile-header*/
+.profile-header h2{
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.first-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.second-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.second-line a{
+    margin: 0 25px ;
+}
+
