@@ -23,7 +23,7 @@
 .container{
     position: absolute;
     /*Adicionando margin top*/
-    margin-top: 5%;
+    margin-top: 8%;
     top: 25%;
     /*Posicionando Container ao centro da tela*/
     left: 50%;
@@ -55,6 +55,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 /*Configurando borda que fica ao redor da foto*/
@@ -135,7 +136,8 @@
 
 /*Link Hover*/
 #link:hover{
-    background-color: #EE8B35;
+    background-color: var(--color-secondary);
+    margin-bottom: .5em;
 }
 
 /*Configurando Link do Instagram*/
@@ -216,4 +218,14 @@
     font-size: .85rem;
 }
 
+/*Configurando sessão final*/
+.final-section{
+    text-align: center;
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+}
 
+/*Configurando peso da fonte*/
+.final-section h3{
+    font-weight: 600;
+}
