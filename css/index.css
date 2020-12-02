@@ -131,7 +131,7 @@
     text-align: center;
     margin: .75rem;
     transition: all .5s;
-    box-shadow: (6px 7px 0px rgba(0, 0, 0, 0.1));
+    box-shadow: 6px 7px 0px rgba(0, 0, 0, 0.027);
 }
 
 /*Link Hover*/
