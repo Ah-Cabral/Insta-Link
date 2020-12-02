@@ -1,7 +1,5 @@
 # Insta-Link
 
-# Insta-Link
-
 ### Protótipo desenvolvido no Figma:
 
 ### Link: https://urless.in/VLGNV
