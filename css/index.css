@@ -115,6 +115,13 @@ html, body {
     justify-content: center;
 }
 
+/*Configurando posicionamento dos segundos 2 botões*/
+.third-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*Configurando links*/
 #link{
     width: 15rem;
@@ -132,7 +139,7 @@ html, body {
 /*Link Hover*/
 #link:hover{
     background-color: var(--color-secondary);
-    margin-bottom: .5em;
+    margin-top: .5em;
 }
 
 /*Configurando Link do Instagram*/
@@ -213,6 +220,26 @@ html, body {
     font-size: .85rem;
 }
 
+/*Configurando Link do Linkedin*/
+.link-behance{
+    color: var(--color-primary);
+    background: #1c2577;
+    border-radius: 3px;
+    margin-right: 25px;
+}
+
+/*Configurando ícone*/
+.link-behance i{
+    font-size: 1.5rem;
+}
+
+/*Configurando h3*/
+.link-behance h3{
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: .85rem;
+}
+
 /*Configurando sessão final*/
 .final-section{
     text-align: center;
@@ -239,6 +266,10 @@ html, body {
     }
 
     .second-line{
+        flex-direction: column;
+    }
+
+    .third-line{
         flex-direction: column;
     }
 }
