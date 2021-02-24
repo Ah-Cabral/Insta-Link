@@ -2,7 +2,7 @@
 
 ### Protótipo desenvolvido no Figma:
 
-### Link: https://urless.in/VLGNV
+### Link: https://ahcabral.vercel.app/
 
 ![](images/print.jpg)
 
